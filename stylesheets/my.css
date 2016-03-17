@@ -1,0 +1,11 @@
+#main_content p {
+	text-align:center;
+	color: #273B63;
+	font-weight: bold;
+
+}
+
+#main_content li {
+	text-align: justify;
+}
+
