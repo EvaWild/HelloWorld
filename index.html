@@ -22,15 +22,9 @@
 2
 <script src="bootbox.min.js"></script>
 
-<script>
-    $(document).on("click", ".alert", function(e) {
-      bootbox.alert("jQueryScript.Net!", function() {
-      	console.log("Alert Callback");
- });
+bootbox.alert("You are awesome!", function() {
+  Example.show("You are awesome callback");
 });
-</script>
-<a class="alert" href=#>You are awesome!</a>
-
 
 
     <script type="text/javascript" src="javascripts/modernizr.js"></script>
